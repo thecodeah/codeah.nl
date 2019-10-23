@@ -1,0 +1,153 @@
+/* --- */
+/* Fonts */
+/* --- */
+
+@font-face {
+    font-family: "Lato";
+    src: url("/static/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+/* --- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin:0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+/* --- */
+/* Parallaxes */
+/* --- */
+
+.parallax {
+    background: rgba(0, 0, 0, .75) url("/static/img/background.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding:1.5em 9vw;
+    
+    filter: grayscale(1);
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.parallax-header {
+    display: table;
+    border: 0.3em solid #FFF;
+    color: white;
+    padding: 0.2em 1em;
+    margin: 0 auto 1.5em auto;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+/* --- */
+/* Blocks */
+/* --- */
+
+.block {
+    color: #222;
+    background-color:#F6F6F6;
+    padding:1.5em 9vw;
+}
+
+.block-header {
+    display: table;
+    border: 0.3em solid #222;
+    padding: 0.2em 1em;
+    margin: 0 auto 1.5em auto;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.block-content {
+    text-align: justify;
+}
+
+.block b {
+    color: #000;
+}
+
+/* --- */
+
+#center-text {
+    font-size:8.5vw;
+    margin:0px;
+    padding: 0em 0.2em 0em 0.2em;
+    border: 0.1em #FFF solid;
+    color:white;
+    text-transform: uppercase;
+}
+
+.center-box {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+    margin: 0px;
+    display: flex;
+    flex-direction: column;    z-index: -1;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- */
+
+#social-networks {
+    display:flex;
+    position: absolute;
+    bottom: 3vh;
+}
+
+#social-networks > a {
+    flex: auto;
+    margin: 0 0.4em 0 0.4em;
+}
+
+#social-networks img {
+    height: 2.7vw;
+    
+    opacity: 0.6;
+}
+
+#social-networks img:hover {
+    opacity: 1;
+}
+
+#social-networks > a:focus {
+    outline:none;
+}
+
+/* --- */
+
+@media screen and (max-width: 800px) {
+    #center-text {
+        font-size:15vw;
+    }
+    
+    #social-networks img {
+        height: 10vw;
+    }
+}
