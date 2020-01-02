@@ -95,7 +95,7 @@ a:focus {
     font-size:8.5vw;
     margin:0px;
     padding: 0em 0.2em 0em 0.2em;
-    border: 0.1em #FFF solid;
+    border: 0.1em #FFF solid !important;
     color:white;
     text-transform: uppercase;
 }
