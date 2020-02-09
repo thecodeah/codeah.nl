@@ -36,7 +36,7 @@ a:focus {
 /* --- */
 
 .parallax {
-    background: rgba(0, 0, 0, .75) url("/static/img/background.jpg");
+    background: rgba(0, 0, 0, .1) url("/static/img/background.jpg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: center;
