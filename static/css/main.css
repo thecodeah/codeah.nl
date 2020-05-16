@@ -36,16 +36,13 @@ a:focus {
 /* --- */
 
 .parallax {
-    background: rgba(0, 0, 0, .1) url("/static/img/background.jpg");
-    background-blend-mode: darken;
+    background: url("/static/img/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
-    padding:1.5em 9vw;
+    padding: 1.5em 9vw;
     
-    filter: grayscale(1);
-
     top: 0;
     left: 0;
     right: 0;
@@ -69,7 +66,7 @@ a:focus {
 .block {
     color: #222;
     background-color:#F6F6F6;
-    padding:1.5em 9vw;
+    padding: 1.5em 10vw;
 }
 
 .block-header {
@@ -95,19 +92,20 @@ a:focus {
     font-size:8.5vw;
     margin:0px;
     padding: 0em 0.2em 0em 0.2em;
-    border: 0.1em #FFF solid !important;
-    color:white;
+    border: 0.1em #F6F6F6 solid !important;
+    color:#F6F6F6;
     text-transform: uppercase;
 }
 
 .center-box {
-    color:white;
+    color:#F6F6F6;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     
     margin: 0px;
     display: flex;
-    flex-direction: column;    z-index: -1;
+    flex-direction: column;
+    z-index: -1;
 
     justify-content: center;
     align-items: center;
@@ -128,8 +126,6 @@ a:focus {
 
 #social-networks img {
     height: 2.7vw;
-    
-    opacity: 0.6;
 }
 
 #social-networks img:hover {
