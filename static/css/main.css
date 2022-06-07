@@ -64,6 +64,8 @@ a:focus {
 /* --- */
 
 .block {
+    display: flex;
+    flex-flow: column;
     color: #222;
     background-color: #f6f6f6;
     padding: 1.5em 10vw;
@@ -79,6 +81,8 @@ a:focus {
 }
 
 .block-content {
+    width: 50vw;
+    align-self: center;
     text-align: justify;
 }
 
@@ -145,5 +149,9 @@ a:focus {
 
     #social-networks img {
         height: 10vw;
+    }
+
+    .block-content {
+        width: 100%;
     }
 }
