@@ -19,8 +19,8 @@ html {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    margin:0px;
+    font-family: "Lato", sans-serif;
+    margin: 0px;
 }
 
 a {
@@ -42,7 +42,7 @@ a:focus {
     background-size: cover;
 
     padding: 1.5em 9vw;
-    
+
     top: 0;
     left: 0;
     right: 0;
@@ -51,12 +51,12 @@ a:focus {
 
 .parallax-header {
     display: table;
-    border: 0.3em solid #FFF;
+    border: 0.3em solid #fff;
     color: white;
     padding: 0.2em 1em;
     margin: 0 auto 1.5em auto;
     text-transform: uppercase;
-    text-align:center;
+    text-align: center;
 }
 
 /* --- */
@@ -65,7 +65,7 @@ a:focus {
 
 .block {
     color: #222;
-    background-color:#F6F6F6;
+    background-color: #f6f6f6;
     padding: 1.5em 10vw;
 }
 
@@ -75,7 +75,7 @@ a:focus {
     padding: 0.2em 1em;
     margin: 0 auto 1.5em auto;
     text-transform: uppercase;
-    text-align:center;
+    text-align: center;
 }
 
 .block-content {
@@ -89,19 +89,19 @@ a:focus {
 /* --- */
 
 #center-text {
-    font-size:8.5vw;
-    margin:0px;
+    font-size: 8.5vw;
+    margin: 0px;
     padding: 0em 0.2em 0em 0.2em;
-    border: 0.1em #F6F6F6 solid !important;
-    color:#F6F6F6;
+    border: 0.1em #f6f6f6 solid !important;
+    color: #f6f6f6;
     text-transform: uppercase;
 }
 
 .center-box {
-    color:#F6F6F6;
-    font-family: 'Montserrat', sans-serif;
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
-    
+
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ a:focus {
 /* --- */
 
 #social-networks {
-    display:flex;
+    display: flex;
     position: absolute;
     bottom: 3vh;
 }
@@ -133,16 +133,16 @@ a:focus {
 }
 
 #social-networks > a:focus {
-    outline:none;
+    outline: none;
 }
 
 /* --- */
 
 @media screen and (max-width: 800px) {
     #center-text {
-        font-size:15vw;
+        font-size: 15vw;
     }
-    
+
     #social-networks img {
         height: 10vw;
     }
