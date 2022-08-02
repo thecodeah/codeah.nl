@@ -67,7 +67,7 @@ a:focus {
     display: flex;
     flex-flow: column;
     color: #222;
-    background-color: #f6f6f6;
+    background-color: white;
     padding: 1.5em 10vw;
 }
 
@@ -96,13 +96,13 @@ a:focus {
     font-size: 10em;
     margin: 0px;
     padding: 0em 0.2em 0em 0.2em;
-    border: 0.1em #f6f6f6 solid !important;
-    color: #f6f6f6;
+    border: 0.1em white solid !important;
+    color: white;
     text-transform: uppercase;
 }
 
 .center-box {
-    color: #f6f6f6;
+    color: white;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 
